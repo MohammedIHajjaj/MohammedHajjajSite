@@ -1,0 +1,236 @@
+/* Start General */
+body{background-color: #fff;}
+
+.container{width: 1000px; margin: auto;}
+/* End General */
+
+/* Start Header */ 
+header nav{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+
+header nav h2{text-transform: uppercase;}
+
+header nav h2 span{color: #2ecc71;}
+
+header nav ul{
+    list-style: none;    
+    overflow: hidden;
+    float: right;
+}
+
+header nav ul li{float: left; padding: 8px;}
+
+header nav ul li:hover{background-color: #2ecc71;}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* End Header */ 
+
+/* Start Features */
+.info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 6px;
+    display: block;
+    width: 32%;
+    text-align: center;
+    border: 2px solid #252F31;
+    border-radius: 2%;
+}
+
+.info:nth-child(2) {background-color:#252F31 ; color: #2ecc71;}
+
+.info:nth-child(3){margin-right: 0px;}
+/* End Features */
+
+/* Start About Me */
+.about-me .aboutmeinfo{
+    width: 59%;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.about-me .aboutmeinfo .hobbies h3,
+.about-me .aboutmeinfo .hobbies p{ margin: 0 0 10px 40px;}
+
+.about-me img{float: right; width: 40%;}
+
+.hobbies > div{width: 50%; min-height: 50px; }
+/* End About Me */
+
+/* Start MySkills */
+.my-skills{
+    display: inline-block;
+    width: 1000px;
+    height: 240px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    background-color: #252F31;
+    color: #2ecc71;
+}
+
+.my-skills .skills{width: 50%; margin: 0 0 10px 10px; }
+
+.my-skills .skills button{
+    border: 2px solid #2DCC70;
+    color: #2ecc71;
+    padding: 10px 30px;
+    background-color: none;
+   }
+
+.my-skills .skills button:hover{
+    border: none;
+    color: #fff;
+    background-color: #2ecc71 ;
+}
+
+.my-skills .progress{width: 49%; float: right; }
+
+.my-skills .progress .technique {margin-left: 30px; width: 80%; }
+
+.my-skills .progress .technique div {
+    background-color: #F2F2F2;
+    height: 25px;
+    padding-right:10px ;
+}
+
+.my-skills .progress .technique span{
+    background-color: #2ecc71;
+    height: 25px;
+    display: block;
+    visibility: visible;
+}
+/* End MySkills */
+
+/* Start Protofolio */ 
+.protofolio {text-align: center; }
+
+.protofolio .my-work > div {
+    float: left;
+    width: 31.5%;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.protofolio .my-work > div:nth-child(3n) { margin-right: 0; }
+/* End Protofolio */
+
+/* Start Quotes */ 
+.testimonials {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.testimonials q {
+    line-height: 1.6;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.testimonials ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.testimonials ul li {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+    border-radius: 70%;
+    cursor: pointer;
+}
+
+.testimonials ul .active,
+.testimonials ul li:hover {background-color: #2DCC70;}
+/* End Quotes */
+
+/* Start Contact */
+.contact {
+    display: inline-block;
+    background-color: #252F31;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contact h2 {color: #fff;}
+
+.contact p {
+    color: #6a6e71; 
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.contact p strong {color: #fff;}
+
+.contact .info,
+.contact .form {width: 45%; padding-bottom: 25px; }
+
+.contact .form {margin-left: 20px; margin-top: 90px; }
+
+.contact .form input,
+.contact .form textarea {
+    width: 100%;
+    border: none;
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    background-color: #4B5557;
+    color: #fff;  
+}
+
+.contact .form button {
+    border: none;
+    color: #fff;
+    background-color: #2ecc71;
+    width: auto;
+    height: 25px;
+    margin-top: 10px;
+}  
+.contact .form button:hover {
+    border: none;
+    color: #2ecc71;
+    background-color: #fff;
+    width: auto;
+    height: 25px;
+    margin-top: 10px;
+}  
+
+/* End Contact */
+
+/* Start Footer */ 
+footer {
+    background-color: #252F31;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    height: 150px;
+}
+
+footer p {padding-top: 10px; font-size: large;}
+
+footer ul {list-style: none; padding-left: 0;}
+
+footer ul li {display: inline-block; padding: 5px 5px 0px 5px;}
+
+footer ul li a {text-decoration: none; color: #4B5557;}
+
+footer ul li a:hover {color: #fff;}
+/* End Footer */
+
+/* Start My FrameWork */ 
+.fl-left {float: left;}
+/* End My FramWork */
